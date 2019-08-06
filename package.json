@@ -1,0 +1,24 @@
+{
+  "name": "infinityf",
+  "version": "1.0.1",
+  "description": "make javascript able to infinity recursion",
+  "main": "./src/index.js",
+  "scripts": {
+    "comp": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "recursion",
+    "function",
+    "infinity"
+  ],
+  "author": "coloud",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
